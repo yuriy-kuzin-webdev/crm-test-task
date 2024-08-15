@@ -9,4 +9,5 @@ export const databaseConfig: SequelizeModuleOptions = {
     database: process.env.DB_NAME || 'test_db',
     autoLoadModels: true,
     synchronize: true,
+    logging: false,
 };
