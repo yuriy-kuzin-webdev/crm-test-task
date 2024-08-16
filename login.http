@@ -1,0 +1,3 @@
+### Login to get JWT token
+POST http://localhost:3000/auth/login
+

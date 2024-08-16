@@ -1,0 +1,10 @@
+### Add a new user
+POST http://localhost:3000/api/v1/add-user
+Content-Type: application/json
+Authorization: Bearer <your_access_token_here>
+
+{
+  "name": "John2",
+  "email": "john2@example.com",
+  "phone": "1334567890"
+}
