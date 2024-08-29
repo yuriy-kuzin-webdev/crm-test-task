@@ -25,3 +25,8 @@ Authorization: Bearer <your_access_token_here>
 
 ## React login page
 http://localhost:5000/login
+
+## Remove All Docker Data
+```bash
+docker system prune -a --volumes
+```
